@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# incomplete notebooks
+notebooks/15_qsvm.ipynb
+notebooks/test.ipynb
+notebooks/11_tuned_xgb.ipynb
 # Distribution / packaging
 .Python
 build/
