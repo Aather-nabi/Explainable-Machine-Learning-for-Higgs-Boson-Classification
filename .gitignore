@@ -6,10 +6,22 @@ __pycache__/
 # C extensions
 *.so
 
+
+venv311/
+data/
+results/
+# Ignore saved models and predictions
+*.pkl
+*.joblib
+*.h5
+*.pt
+predictions/
+models/
+models/
 # incomplete notebooks
-notebooks/15_qsvm.ipynb
-notebooks/test.ipynb
-notebooks/11_tuned_xgb.ipynb
+notebooks/15_qsvm.ipynb/
+notebooks/test.ipynb/
+notebooks/11_tuned_xgb.ipynb/
 # Distribution / packaging
 .Python
 build/
