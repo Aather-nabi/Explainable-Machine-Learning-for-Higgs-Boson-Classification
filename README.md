@@ -1,6 +1,5 @@
 # Explainable Classical and Quantum Machine Learning for Higgs Boson Classification
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-311/)
 [![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen.svg)]()
 
@@ -75,7 +74,11 @@ Higgs_Boson_Project/
 ├── data/               # Ignored: Raw and processed datasets
 ├── models/             # Ignored: Saved model artifacts (.pkl, .pt)
 ├── notebooks/          # Jupyter notebooks for EDA, tuning, and XAI
+├── results/            # model outputs(graphs, plots, XAI graphs and tables)
 ├── src/                # Modular Python scripts (data_loader.py, etc.)
 ├── requirements.txt    # Reproducible Python environment
 ├── setup.py            # Local package build configuration
 └── README.md           # Project documentation
+
+## Author: Aather Nabi
+## License: This project is intended for academic and research purposes.
